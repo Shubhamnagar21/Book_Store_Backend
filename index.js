@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 // app.use(cors());
 // Option 2: Allow custom Origins
 app.use(cors({
-  origin:['http://localhost:5173','https://book-store-frontend-ten-lake.vercel.app/'],
+  origin:['http://localhost:5173','https://book-store-frontend-ten-lake.vercel.app/','https://book-store-frontend-git-main-shubham-nagars-projects.vercel.app/'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type']
 }));
