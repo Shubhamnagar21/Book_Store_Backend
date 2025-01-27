@@ -10,6 +10,7 @@ const app = express();
 
 // middleWare for parsing request body
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Middle for handling CORS Policy
 // Option 1: Allow all origins with Default of Cors(*)
