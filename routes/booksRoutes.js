@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import { Book } from "../models/bookmodel.js";
+import { Book } from "../models/bookModel.js";
 
 
 router.post("/", async (request, response) => {
