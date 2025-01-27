@@ -1,5 +1,4 @@
 import express, { request, response, urlencoded } from "express";
-import { PORT, mongodbURL } from "./config.js";
 import mongoose from "mongoose";
 import booksRoute from "./routes/booksRoutes.js";
 import { config } from "dotenv";
